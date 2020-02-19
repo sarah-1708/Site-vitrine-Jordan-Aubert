@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="index.php">
+	<link href="https://fonts.googleapis.com/css?family=Lustria|Tomorrow&display=swap" rel="stylesheet">
+
+	<title>Jordan Aubert Billard</title>
+</head>
+<body>
+
+
+	<!--HEADER-->
+	<header>
+
+		<h1>Jordan Aubert</h1>
+		
+
+		<button  class="stage"><a class="link" href="#stage">S'inscrire à un stage</a></button>
+
+		<nav>
+			<ul>
+				<li> <a class="link" href="#presentation">Accueil</a></li>
+				<li> <a class="link" href="#palmarès">Palmarès</a></li>
+				<li> <a class="link" href="#footer">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+<!--PRESENTATION-->
+
+	<section id="presentation">
+
+		<div>
+			<h2>Qui suis-je ?</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+
+		<div>
+				 <button class="stage_center"><a class="link" href="#stage">S'inscrire à un stage</a></button>
+		</div>
+	</section>
+
+<!--PALMARES-->
+
+	<section id="palmarès">
+		<h2>Palmarès</h2>
+			<div id="timeline">
+				<div class="block">
+
+					<div class="year">
+							<div class="date">
+								<h3>2019</h3>
+								<img src="img/billiard-ball-trans.png" alt="ball">
+							</div>
+						<p class=right>Eo et inutiles talia et inutiles lucris ignobiles venditare subditicios.</p>
+					</div>
+
+					<div class="year">
+							<div class="date">
+								<h3>2018</h3>
+								<img src="img/billiard-ball-trans.png" alt="ball">
+							</div>
+						<p class="left">Eo et inutiles talia et inutiles lucris ignobiles venditare subditicios.</p>
+					</div>
+
+					<div class="year">
+							<div class="date">
+								<h3>2017</h3>
+								<img src="img/billiard-ball-trans.png" alt="ball">
+							</div>
+						<p class="right">Eo et inutiles talia et inutiles lucris ignobiles venditare subditicios.</p>
+					</div>
+
+				</div>
+			</div>
+
+			<div>
+				<button class="stage_center"><a class="link" href="#stage">S'inscrire à un stage</a></button>
+			</div>
+	</section>
+
+<!--STAGE-->
+
+	<section id="stage">
+		<h2>Stages</h2>
+	<!--renseignements date, durée, tarif stage à intégrer en PHP ou JS-->
+		<div class="trainee">
+			<p>Date: JJ/MM/AAAA</p>
+			<p>Contenu: Lorem ipsum</p>
+			<p>Durée: 2h</p>
+			<p>Tarif: XX,XX euros</p>
+		</div>
+
+		<div id="map">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10487.89499438422!2d6.0576881!3d48.9158924!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x27a0a7697a7001e6!2sCentre%20des%20sports!5e0!3m2!1sfr!2sfr!4v1573721180399!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="">
+			</iframe>
+		</div>
+
+		<div>
+			<button class="stage_final"><a class="link" href="#footer">S'inscrire à un stage</a></button>
+		</div>
+	</section>
+
+
+<!--CONTACT-->
+
+	<footer id="footer">
+		<h2>contact</h2>
+		<form action="">
+			<div class="name">
+					<label for="name">Nom</label>
+					<input type="text"id='name'placeholder='Votre nom'>
+			</div>
+			<div class="e-mail">
+					<label for="e-mail">E-mail</label>
+					<input type="text"id='e-mail'placeholder='Votre e-mail'>
+			</div>
+			<input type="submit" value='OK'class="button-3">
+		</form>
+	</footer>
+
+
+
+
+</body>
+</html>
